@@ -9,9 +9,9 @@
 }
 
 /* similar text */
-.text-primary{
+/* .text-primary{
 
-}
+} */
 .single-txt{
     color: rgb(255, 66, 165);
 }
@@ -50,13 +50,16 @@
 .nav-rihgt-content{
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
+    color: rgb(44, 38, 59);
 }
 .nav-rihgt-content ul{
     display: flex;
 }
 .nav-rihgt-content li{
+    font-size: 1.2rem;
     list-style: none;
-    margin-right: 15px;
+    margin-right: 20px;
     cursor: pointer;
     color: rgb(60, 53, 79);
 }
@@ -66,7 +69,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
+/* navbar section styles end */
 
 
 
