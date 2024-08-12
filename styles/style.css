@@ -9,17 +9,19 @@
 }
 
 /* similar text */
-/* .text-primary{
-
-} */
+.text-primary{
+    background-image: linear-gradient(0deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+}
 .single-txt{
     color: rgb(255, 66, 165);
 }
 .btn-primary{
-    padding: 18px 28px;
+    padding: 13px 28px;
     border: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     border-radius: 48px;
@@ -71,7 +73,39 @@
 }
 /* navbar section styles end */
 
-
+/* banner section styles start */
+.banner-container{
+    background-image: url('../images/Group\ 14.png');
+    max-width: 90%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+.banner-left-content h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgb(11, 2, 35);
+}
+.banner-left-content h1{
+    font-size: 4.4rem;
+    margin-bottom: 10px;
+}
+.banner-left-content div{
+    margin-bottom: 20px;
+}
+.banner-left-content i{
+    margin-right: 10px;
+}
+#rogue-btn {
+    background: rgb(78, 197, 247); 
+    margin-left: 10px;
+}
+/* banner section styles end */
 
 
 
