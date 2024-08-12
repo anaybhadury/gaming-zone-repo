@@ -140,6 +140,7 @@
 .funny-videos-container{
     max-width: 90%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 .funny-videos-container h1{
     text-align: center;
@@ -175,5 +176,32 @@
 }
 /* funny videos section styles end */
 
-
+/* no download section styles start */
+.no-download-container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.no-download-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nodownload-left-content{
+    width: 14%;
+    margin-left: 25%;
+    text-align: right;
+}
+.nodownload-right-content{
+    position: relative;
+}
+.nodownload-right-content > div{
+    position: absolute;
+    top: 55%;
+    left: -25%;
+}
+.nodownload-left-content p{
+    margin-top: 15px;
+    line-height: 25px;
+}
+/* no download section styles end */
 
