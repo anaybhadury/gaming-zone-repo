@@ -107,7 +107,33 @@
 }
 /* banner section styles end */
 
-
+/* gamer section styles start */
+.gamer-container{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.gamer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+.gamer-right-content{
+    text-align: right;
+    width: 465px;
+}
+.gamer-right-content h1{
+    margin-bottom: 10px;
+}
+.gamer-right-content p{
+    line-height: 28px;
+    color: rgb(83, 76, 100);
+}
+.gamer-right-content button{
+    margin: 10px 0 10px 0;
+}
+/* gamer section styles end */
 
 
 
