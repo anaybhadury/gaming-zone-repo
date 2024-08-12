@@ -205,3 +205,44 @@
 }
 /* no download section styles end */
 
+/* play games section styles start */
+.play-games-container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.play-games-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.playgames-right-content{
+    width: 20%;
+    margin-right: 25%;
+    text-align: right;
+}
+.playgames-left-content{
+    position: relative;
+}
+.playgames-left-content > div{
+    position: absolute;
+    top: 55%;
+    right: -25%;
+}
+.playgames-right-content p{
+    margin-top: 15px;
+    line-height: 25px;
+}
+/* play games section styles end */
+
+
+
+
+
+
+
+
+
+
+
+
+
