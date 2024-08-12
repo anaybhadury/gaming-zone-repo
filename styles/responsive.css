@@ -59,6 +59,9 @@
     /* we are gamer section end */
 
     /* funny videos section start */
+    .funny-videos-container{
+        margin-bottom: 20px;
+    }
     .funny-videos-content{
         grid-template-columns: 1fr;
     }
@@ -68,6 +71,33 @@
         margin-bottom: 15px;
     }
     /* funny videos section end */
+
+    /* no download section start */
+    .no-download-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .nodownload-left-content{
+        width: 80%;
+        text-align: center;
+        margin-left: 0%;
+        margin-bottom: 20px;
+    }
+    .nodownload-right-content img{
+        width: 100%;
+    }
+    .nodownload-right-content > div {
+        top: 70%;
+        left: -24%;
+    }
+    .nodownload-right-content > div > img{
+        margin-left: 25%;
+        width: 40%;
+    }
+    .no-download-content{
+        flex-direction: column;
+    }
+    /* no download section end */
 
 }
 
@@ -121,6 +151,30 @@
         margin-bottom: 15px;
     }
     /* funny videos section end */
+
+    /* no download section start */
+    .no-download-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .nodownload-left-content{
+        width: 85%;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .nodownload-right-content img{
+        width: 100%;
+    }
+    .nodownload-right-content > div {
+        top: 70%;
+        left: -30%;
+    }
+    .nodownload-right-content > div > img{
+        margin-left: 25%;
+        width: 40%;
+    }
+    /* no download section end */
 }
 
 
