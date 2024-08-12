@@ -41,6 +41,22 @@
     }
     /* banner section end */
 
+    /* we are gamer section start */
+    .gamer-container{
+        max-width: 100%;
+    }
+    .gamer-content{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .gamer-left-content img{
+        width: 100%;
+    }
+    .gamer-right-content{
+        width: 100%;
+    }
+    /* we are gamer section end */
+
 }
 
 
@@ -67,6 +83,22 @@
         margin-top: 10px;
     }
     /* banner section end */
+
+    /* we are gamer section start */
+    .gamer-container{
+        max-width: 100%;
+    }
+    .gamer-content{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .gamer-left-content img{
+        width: 100%;
+    }
+    .gamer-right-content{
+        text-align: center;
+    }
+    /* we are gamer section end */
 }
 
 
