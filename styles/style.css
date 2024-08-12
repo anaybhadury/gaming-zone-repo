@@ -118,6 +118,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 150px;
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
 }
 .gamer-right-content{
     text-align: right;
@@ -135,6 +136,44 @@
 }
 /* gamer section styles end */
 
+/* funny videos section styles start */
+.funny-videos-container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.funny-videos-container h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.funny-videos-container h5{
+    text-align: center;
+    color: rgb(83, 76, 100);
+}
+.funny-videos-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    gap: 20px;
+}
+.funny-videos img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.funny-videos p{
+    width: 70%;
+    color: rgb(83, 76, 100);
+}
+#unique-videos{
+    filter: brightness(40%);
+    position: relative;
+}
+#unique-videos > div{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    color: white;
+}
+/* funny videos section styles end */
 
 
 
