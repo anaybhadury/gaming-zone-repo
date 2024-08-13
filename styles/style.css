@@ -285,11 +285,35 @@
     font-size: 1rem;
     font-weight: 600;
 }
-
-
 /* careers section styles end */
 
-
+/* gaming section styles start */
+.gaming-container{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.gaming-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.gaming-equepment{
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 200, 200);
+}
+#arcade-btn{
+    border: 1px solid rgb(255, 66, 165);
+}
+.gaming-content > div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+/* gaming section styles end */
 
 
 
