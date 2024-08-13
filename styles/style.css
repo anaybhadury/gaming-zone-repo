@@ -314,7 +314,27 @@
 }
 /* gaming section styles end */
 
-
+/* footer section styles start */
+.footer-container{
+    max-width: 90%;
+    margin: 0 auto;
+    height: 30rem;
+    background-color: rgb(11, 2, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 35px;
+}
+.footer-content{
+    color: white;
+}
+/* footer section styles end */
 
 
 
