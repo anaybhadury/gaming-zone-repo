@@ -149,6 +149,16 @@
     }
     /* careers section end */
 
+    /* gaming section start */
+    .gaming-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .gaming-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* gaming section end */
+
 }
 
 
@@ -271,6 +281,16 @@
         margin-bottom: 15px;
     }
     /* careers section end */
+
+    /* gaming section start */
+    .gaming-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .gaming-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* gaming section end */
 }
 
 
