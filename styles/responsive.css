@@ -116,12 +116,12 @@
         margin-top: 25px;
     }
     .playgames-left-content > div {
-        top: 80%;
-        right: 10%;
+        left: 65%;
+        top: 65%;
+        right: 14%;
     }
     .playgames-left-content > div > img{
-        margin-right: 25%;
-        width: 40%;
+        width: 175%;
         margin-bottom: 50px;
     }
     .play-games-content{

@@ -234,7 +234,60 @@
 }
 /* play games section styles end */
 
+/* careers section styles start */
+.careers-container{
+    max-width: 90%;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 70px;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    height: 685px;
+    color: white;
+}
+.careers-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.careers-left-content{
+    margin-left: 200px;
+}
+.careers-left-content h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.careers-left-content > p{
+    width: 610px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.careers-left-content > div{
+    display: flex;
+    justify-content: space-between;
+}
+.careers-left-content > div > p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.right-align{
+    text-align: right;
+}
+.careers-right-content img{
+    width: 100%;
+}
+.btn-seeall-position{
+    padding: 15px 40px;
+    background-color: white;
+    color: rgb(255, 66, 165);
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+}
 
+
+/* careers section styles end */
 
 
 
