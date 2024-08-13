@@ -129,6 +129,26 @@
     }
     /* play games section end */
 
+    /* careers section start */
+    .careers-container{
+        max-width: 100%;
+        height: 56rem;
+        padding: 15px;
+    }
+    .careers-content{
+        flex-direction: column;
+    }
+    .careers-left-content > p {
+        width: 340px;
+    }
+    .careers-left-content{
+        margin-left: 0;
+    }
+    .btn-seeall-position{
+        margin-bottom: 15px;
+    }
+    /* careers section end */
+
 }
 
 
@@ -230,6 +250,27 @@
         width: 40%;
     }
     /* play games section end */
+
+    /* careers section start */
+    .careers-container{
+        max-width: 100%;
+        height: 70rem;
+        padding: 15px;
+    }
+    .careers-content{
+        flex-direction: column;
+        display: block;
+    }
+    .careers-left-content > p {
+        width: 340px;
+    }
+    .careers-left-content{
+        margin-left: 0;
+    }
+    .btn-seeall-position{
+        margin-bottom: 15px;
+    }
+    /* careers section end */
 }
 
 
