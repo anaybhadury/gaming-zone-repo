@@ -159,8 +159,18 @@
     }
     /* gaming section end */
 
-    
-
+    /* footer section start */
+    .footer-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .footer-content > div{
+        display: block;
+    }
+    .footer-content > div > img{
+        margin-top: 20px;
+    }
+    /* footer section end */
 }
 
 
@@ -294,6 +304,12 @@
     }
     /* gaming section end */
 
+    /* footer section start */
+    .footer-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    /* footer section end */
     
 }
 
